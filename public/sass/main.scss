@@ -1,0 +1,16 @@
+@import "./utils/mixins.scss";
+@import "./base/fonts.scss";
+@import "./base/reset.scss";
+@import "./base/base.scss";
+@import "./utils/variables.scss";
+@import "../../node_modules/bmat/sass/dashtable.scss";
+@import "../../node_modules/bmat/sass/eva_login.scss";
+@import "./mui/mui_reset.scss";
+@import "./mui/mui_styles.scss";
+@import "./mui/idc_mui_styles.scss";
+@import "./common/common.scss";
+@import "./components/header.scss";
+@import "./components/sidemenu.scss";
+@import "./components/profile.scss";
+@import "./components/dashboard.scss";
+@import "./components/idc.scss";

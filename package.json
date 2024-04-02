@@ -1,0 +1,20 @@
+{
+  "name": "bmat-styles",
+  "version": "0.0.1",
+  "author": "Bohemia Automation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eva-ics/bmat/issues"
+  },
+  "homepage": "https://github.com/eva-ics/bmat/",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.7"
+  }
+}
