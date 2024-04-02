@@ -1,28 +1,23 @@
-
-.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input,
-.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
-  color: $main-text-color;
-  background-color: $body-bg-color;
-  padding: 11px 30px;
-  outline: 1px solid $border-color;
+.MuiSelect-select.MuiSelect-outlined.MuiInputBase-input.MuiOutlinedInput-input {
+    color: $main-text-color;
+    background-color: $body-bg-color;
+    padding: 11px 30px;
+    outline: 1px solid $border-color;
 }
 
-.MuiList-root.MuiList-padding.MuiMenu-list,
-.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list {
-  color: $main-text-color;
-  background-color: $body-bg-color;
+.MuiList-root.MuiList-padding.MuiMenu-list {
+    color: $main-text-color;
+    background-color: $body-bg-color;
 }
 
-.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined,
-.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined.css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
-  fill: $main-text-color;
+.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.MuiSelect-icon.MuiSelect-iconOutlined {
+    fill: $main-text-color;
 }
-
 .MuiInputBase-input.MuiOutlinedInput-input.MuiInputBase-inputAdornedEnd {
-  padding: 6px;
-  font-size: 12px;
+    padding: 6px;
+    font-size: 12px;
 }
 
 .MuiButtonBase-root.MuiIconButton-root.MuiIconButton-edgeEnd.MuiIconButton-sizeMedium {
-  padding: 0;
+    padding: 0;
 }
