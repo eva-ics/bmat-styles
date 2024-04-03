@@ -1,3 +1,10 @@
+/**
+ * BMAT Dashtable Styles
+ *
+ * This stylesheet defines the visual presentation and behavior of the BMAT dashtable components
+ * used in the application. It includes styles for various elements such as filters, buttons,
+ * table rows, and columns to enhance the user interface and user experience.
+ */
 
 .bmat-dashtable-filter-label-off {
   color: #555;
@@ -138,3 +145,52 @@
     display: none;
   }
 }
+
+.never-wrap {
+  white-space: nowrap;
+  @media print {
+    white-space: nowrap;
+  }
+}
+
+th {
+  background-color: $table-header-gb;
+}
+
+td {
+  padding: 7px;
+  font-size: 10px;
+
+  @media print {
+    white-space: normal;
+  }
+  white-space: nowrap;
+
+  @include media(tablet) {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+td.col-fit {
+  width: 1%;
+  white-space: nowrap;
+}
+
+td.col-uptime {
+  width: 150px;
+  white-space: nowrap;
+  @media print {
+    white-space: normal;
+  }
+}
+
+td.col-time {
+  width: 230px;
+  white-space: nowrap;
+  @media print {
+    white-space: normal;
+  }
+}
+
+

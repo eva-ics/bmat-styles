@@ -1,3 +1,12 @@
+/**
+ * Dashboard Layout Styles
+ *
+ * Defines the structure and responsive design of the main dashboard interface,
+ * including the main wrapper, selection controls, and content areas. Key elements
+ * are styled to provide a coherent and functional user interface.
+ */
+
+
 .dashboard-main-wrapper {
     margin-bottom: 20px;
 }
@@ -88,58 +97,9 @@
     padding: 10px 5px;
 }
 
-.content-longtable {
-    height: 100%;
-    overflow: auto;
-}
 
-th {
-    background-color: $table-header-gb;
-}
 
-td {
-    padding: 7px;
-    font-size: 10px;
 
-    @media print {
-        white-space: normal;
-    }
-    white-space: nowrap;
-
-    @include media(tablet) {
-        font-size: 14px;
-        padding: 10px;
-    }
-}
-
-td.col-fit {
-    width: 1%;
-    white-space: nowrap;
-    @media print {
-        white-space: normal;
-    }
-}
-
-td.col-uptime {
-    width: 150px;
-    white-space: nowrap;
-    @media print {
-        white-space: normal;
-    }
-}
-
-td.col-time {
-    width: 230px;
-    white-space: nowrap;
-    @media print {
-        white-space: normal;
-    }
-}
-
-.table-items {
-    table {
-    }
-}
 
 
 
